@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\dao">
+      <UniqueIdentifier>{2760d9fa-6534-49cd-acab-ed0c6fe87dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\entity">
+      <UniqueIdentifier>{d4dba731-1711-4d71-8b45-811877407d7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\dao">
+      <UniqueIdentifier>{4281919e-86eb-402c-a9e6-527773b3beb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\entity">
+      <UniqueIdentifier>{8d9b2052-df53-4cfe-93e5-4e25a4cdbb37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\unit">
+      <UniqueIdentifier>{c57625d2-bb68-451d-a8b3-bb02596321e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\view">
+      <UniqueIdentifier>{39a7cfaa-eaad-43ad-b116-f2d1daba09de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\view">
+      <UniqueIdentifier>{31fc396f-c915-42fa-b5d9-821fb25f9852}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\service">
+      <UniqueIdentifier>{cb95da6b-5775-440b-b494-ae1faf6c037f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\service">
+      <UniqueIdentifier>{d7d2d6a6-5ec2-49a9-8fb9-33491f9518ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\qrc_QtGuiApplication.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommodityDao.cpp">
+      <Filter>Source Files\dao</Filter>
+    </ClCompile>
+    <ClCompile Include="CShoppingCartDao.cpp">
+      <Filter>Source Files\dao</Filter>
+    </ClCompile>
+    <ClCompile Include="CTradeDetailDao.cpp">
+      <Filter>Source Files\dao</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserDao.cpp">
+      <Filter>Source Files\dao</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommodity.cpp">
+      <Filter>Source Files\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\电商平台\电商平台\CShoppingCartItem.cpp">
+      <Filter>Source Files\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\电商平台\电商平台\CTradeDetailcpp.cpp">
+      <Filter>Source Files\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\电商平台\电商平台\CUser.cpp">
+      <Filter>Source Files\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\电商平台\电商平台\InfoForUserOp.cpp">
+      <Filter>Source Files\entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\电商平台\电商平台\CMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainView.cpp">
+      <Filter>Source Files\view</Filter>
+    </ClCompile>
+    <ClCompile Include="UserView.cpp">
+      <Filter>Source Files\view</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UserView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UserView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\电商平台\电商平台\CUerOp.cpp">
+      <Filter>Source Files\service</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SignInView.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SignInView.cpp">
+      <Filter>Source Files\view</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="QtGuiApplication.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Main.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainView.h">
+      <Filter>Header Files\view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UserView.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UserView.h">
+      <Filter>Header Files\view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SignIn.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SignInView.h">
+      <Filter>Header Files\view</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\电商平台\电商平台\CCommodityDao.h">
+      <Filter>Header Files\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\电商平台\电商平台\ConnData.h">
+      <Filter>Header Files\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\电商平台\电商平台\CShoppingCartDao.h">
+      <Filter>Header Files\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\电商平台\电商平台\CTradeDetailDao.h">
+      <Filter>Header Files\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\电商平台\电商平台\CUserDao.h">
+      <Filter>Header Files\dao</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\电商平台\电商平台\CCommodity.h">
+      <Filter>Header Files\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\电商平台\电商平台\CShoppingCartItem.h">
+      <Filter>Header Files\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\电商平台\电商平台\CTradeDetail.h">
+      <Filter>Header Files\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\电商平台\电商平台\CUser.h">
+      <Filter>Header Files\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\电商平台\电商平台\InfoForUserOp.h">
+      <Filter>Header Files\entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\电商平台\电商平台\unit.h">
+      <Filter>Header Files\unit</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_Main.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_UserView.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\电商平台\电商平台\CUserOp.h">
+      <Filter>Header Files\service</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SignIn.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
